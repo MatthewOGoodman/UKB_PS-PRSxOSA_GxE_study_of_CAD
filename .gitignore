@@ -1,0 +1,27 @@
+# Local working notes, release manifest, downloads and licensed inputs: never published
+markdowns/
+PROVENANCE.tsv
+*.zip
+*.json
+*_PII.md
+
+# renv: the project library and its activation are local to each machine.
+# setup/setup_renv.R rebuilds them from ./DESCRIPTION.
+renv/
+.Rprofile
+renv.lock
+renv.lock.pre_setup
+
+# Built or fetched by setup/build_rbgen.sh
+.rbgen_build/
+example/bgen/
+
+# Example and test outputs; plots written by interactive diagnostics
+tests/_output/
+Rplots.pdf
+
+# R and OS clutter
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store

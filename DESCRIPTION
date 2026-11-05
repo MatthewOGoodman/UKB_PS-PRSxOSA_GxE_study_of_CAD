@@ -1,0 +1,38 @@
+Package: UKBPSPRSxOSA
+Title: Pathway-Specific Polygenic Risk Scores for Coronary Artery Disease
+Version: 0.1.0
+Description: Code accompanying Goodman MO et al., Circ Genom Precis Med
+    2022;15(5):e003535. This file declares the R packages the repository uses;
+    setup/setup_renv.R reads it to build the project library. The repository
+    is not an installable R package.
+License: file LICENSE
+Imports:
+    GenomicRanges,
+    GenomeInfoDb,
+    IRanges,
+    S4Vectors,
+    dplyr,
+    tibble,
+    stringr,
+    readr,
+    purrr,
+    tidyr,
+    data.table,
+    Matrix,
+    Rcpp,
+    rbgen
+Suggests:
+    testthat,
+    rtracklayer,
+    GenomicFeatures,
+    txdbmaker,
+    VariantAnnotation,
+    InteractionSet,
+    AnnotationHub,
+    KEGGREST,
+    KEGGgraph,
+    org.Hs.eg.db,
+    AnnotationDbi,
+    R.utils,
+    ggplot2,
+    mgcv

@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Pathway-specific polygenic risk scores (PS-PRS) for coronary artery disease: scorer, annotation builders and analysis record"
+type: software
+license: MIT
+repository-code: "https://github.com/MatthewOGoodman/UKB_PS-PRSxOSA_GxE_study_of_CAD"
+authors:
+  - family-names: Goodman
+    given-names: Matthew O.
+preferred-citation:
+  type: article
+  title: "Pathway-Specific Polygenic Risk Scores Identify Obstructive Sleep Apnea-Related Pathways Differentially Moderating Genetic Susceptibility to Coronary Artery Disease"
+  journal: "Circulation: Genomic and Precision Medicine"
+  year: 2022
+  volume: 15
+  issue: 5
+  start: e003535
+  doi: "10.1161/CIRCGEN.121.003535"
+  authors:
+    - family-names: Goodman
+      given-names: Matthew O.
+    - family-names: Cade
+      given-names: Brian E.
+    - family-names: Shah
+      given-names: Neomi A.
+    - family-names: Huang
+      given-names: Tianyi
+    - family-names: Dashti
+      given-names: Hassan S.
+    - family-names: Saxena
+      given-names: Richa
+    - family-names: Rutter
+      given-names: Martin K.
+    - family-names: Libby
+      given-names: Peter
+    - family-names: Sofer
+      given-names: Tamar
+    - family-names: Redline
+      given-names: Susan

@@ -109,6 +109,6 @@ the network are skipped unless their environment variables are set (see each tes
 
 ## Licence
 
-Code: MIT ([LICENSE](LICENSE)). Data files keep their sources' licences (above). The bgen library
+Code: MIT ([LICENSE](LICENSE)), copyright Mass General Brigham. Data files keep their sources' licences (above). The bgen library
 and rbgen are distributed by their authors under the Boost Software License; this repository
 downloads them and does not redistribute them.
